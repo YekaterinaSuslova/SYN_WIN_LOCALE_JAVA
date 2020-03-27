@@ -75,11 +75,11 @@ public class Congratulation extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(jLabel2)
                     .addComponent(jLabel3))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 0, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jTextField3)))
+                .addGap(5, 5, 5)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jTextField3)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.TRAILING)))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(55, 55, 55)
                 .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -305,6 +305,8 @@ public class Congratulation extends javax.swing.JFrame {
         this.setTitle(rb.getString("jFrame.title"));
         jPanel1.setBorder(BorderFactory.createTitledBorder(rb.getString("jPanel1.text")));
         jButton1.setText(rb.getString("jButton1.text"));      
+        jButton5.setText(rb.getString("jButton5.text"));
+       
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -320,7 +322,7 @@ public class Congratulation extends javax.swing.JFrame {
         jLabel2.setText(rb.getString("jLabel2.text"));
         jLabel3.setText(rb.getString("jLabel1.text"));
         jButton2.setText(rb.getString("jButton2.text"));
-        jButton5.setText(rb.getString("jButton5.text"));
+        jButton4.setText(rb.getString("jButton4.text"));
        
     }//GEN-LAST:event_jButton1ActionPerformed
 
